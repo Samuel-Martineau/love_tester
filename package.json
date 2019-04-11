@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "serve": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "deploy": "git add . && git commit -m \"FILE UPLOAD\" && git push origin master"
   },
   "author": "Simona-Elena Lungoci & Samuel Martineau",
   "license": "ISC",

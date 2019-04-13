@@ -20,4 +20,4 @@ const heartBar = new ldBar('#heartBar', {
 	"value": '70'
 });
 
-window.setTimeout(() => heartBar.set(Math.floor(Math.random() * 101)), 2000)
+window.setInterval(() => heartBar.set(Math.floor(Math.random() * 101)), 2000)

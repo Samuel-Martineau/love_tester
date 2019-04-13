@@ -15,8 +15,8 @@ import { HeartBarSvg } from './svg';
 const heartBar = new ldBar('#heartBar', {
 	"type": 'fill',
 	"path": HeartBarSvg,
-	"stroke": 'red',
-	"stroke-width": '20',
+	"fill": 'data:ldbar/res,stripe(#cc4276,#b4364c)',
+	"fill-background": '#681a1f',
 	"value": '70'
 });
 

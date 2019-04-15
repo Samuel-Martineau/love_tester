@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.4.3",
+    "bulma": "^0.7.4",
     "jquery": "^3.4.0"
   }
 }

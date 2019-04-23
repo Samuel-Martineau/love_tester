@@ -11,8 +11,9 @@ var extractPlugin = new ExtractTextPlugin({
 module.exports = {
 	entry   : './src/js/main.js',
 	output  : {
+		path     : path.resolve(__dirname, 'dist'),
 		filename : 'bundle.js',
-		publicPath: '/'
+		// publicPath: '/dist'
 	},
 	devtool : 'inline-source-map',
 	module  : {

@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "webpack-dev-server",
     "build": "webpack -p",
-    "start": "webpack -p && git add . && git commit -m \"FILE UPLOAD\" && git push origin master"
+    "start": "webpack -p"
   },
   "author": "Simona-Elena Lungoci & Samuel Martineau",
   "license": "ISC",

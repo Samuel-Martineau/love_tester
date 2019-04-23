@@ -11,7 +11,7 @@ var extractPlugin = new ExtractTextPlugin({
 module.exports = {
 	entry   : './src/js/main.js',
 	output  : {
-		path     : path.resolve(__dirname),
+		path     : path.resolve(__dirname, ''),
 		filename : 'bundle.js',
 		// publicPath: '/dist'
 	},

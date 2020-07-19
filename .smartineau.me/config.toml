@@ -1,8 +1,0 @@
-# Ce dossier est utilisé pour afficher ce projet sur mon site web (https://smartineau.me)
-# This folder is used to display this project on my website (https://smartineau.me)
-titre = "Love Tester"
-etiquettes = ["css", "html", "js"]
-dossier = "/"
-url_site_web = "https://love-tester.netlify.app"
-contenu = "/README.md"
-date_de_creation = 2020-06-17T18:35:54.246Z
